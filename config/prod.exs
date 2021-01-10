@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :phoenix_deploy, PhoenixDeployWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
-  url: [host: "178.128.22.104", port: 80],
+  url: [host: "session00.herokuapp.com", port: 443],
   cache_static_manifest: "priv/static/cache_manifest.json",
   server: true
 
